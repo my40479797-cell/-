@@ -1,11 +1,36 @@
-<div align="center">
+# Li Chenrui City Defense (Manchester City Edition)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A retro-style missile command game themed around Manchester City FC. Protect the Etihad Stadium from incoming enemy rockets!
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Themed Assets**: Stylized Etihad Stadiums and Manchester City FC branding.
+- **Resource Management**: Different ammo capacities for each turret (Left: 1000, Center: 1000, Right: 2000).
+- **Round System**: Cities (Stadiums) are restored at the end of each round.
+- **Responsive Design**: Playable on desktop and mobile.
+- **Bilingual Support**: Chinese and English.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- **React 19**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion** (for UI animations)
+- **Canvas API** (for game rendering)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment to Vercel
 
-</div>
+1. Push this code to your GitHub repository.
+2. Connect your repository to [Vercel](https://vercel.com).
+3. Vercel will automatically detect the Vite configuration and deploy the app.
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
